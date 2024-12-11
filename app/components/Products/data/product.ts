@@ -4,6 +4,8 @@ import Imagen3 from "../../../../public/book/movie3.jpg";
 import Imagen4 from "../../../../public/book/movie4.jpeg"
 import Imagen5 from "../../../../public/book/movie5.webp"
 import Imagen6 from "../../../../public/book/movie6.webp"
+import Imagen7 from '../../../../public/book/movie7.jpg'
+import Imagen8 from '../../../../public/book/movie8.webp'
 
 export const products = [
   {
@@ -47,5 +49,19 @@ export const products = [
     price: 500,
     description: "This is a product 6",
     image: Imagen6
+  },
+  {
+    id: "7",
+    name: "Crepusculo",
+    price: 500,
+    description: "This is a product 6",
+    image: Imagen7
+  },
+  {
+    id: "8",
+    name: "Crepusculo",
+    price: 500,
+    description: "This is a product 6",
+    image: Imagen8
   },
 ];
