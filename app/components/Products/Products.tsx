@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { products } from "./data/product";
+import TypingAnimation from "@/components/ui/typing-animation";
 
 interface Product {
   id: number;
@@ -54,10 +55,11 @@ export const Products = () => {
 
   return (
     <>
-      <div className="container mx-auto py-8">
-        <h1 className="text-center font-bold text-3xl text-primary mb-8">
-          Latest generation of books
-        </h1>
+      <div data-aos="fade-up" className="container mx-auto py-8">
+        <TypingAnimation
+          text=" Latest generation of books"
+          className="text-primary hover:text-purple-700"
+        />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.slice(0, showMore).map((product) => (

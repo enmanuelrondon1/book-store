@@ -13,7 +13,9 @@ import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 export const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-800 dark:text-white pt-16 pb-8 px-4">
+    <footer
+    data-aos="fade-up"
+    className="bg-white dark:bg-gray-800 dark:text-white pt-16 pb-8 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Columna de información */}
         <div className="space-y-4">

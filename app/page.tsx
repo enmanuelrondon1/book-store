@@ -33,12 +33,11 @@ export default function Page() {
       <Hero />
       <Services />
       <Banner />
-      <AppStore />
       <Books />
+      <AppStore />
       <Products />
       <Testimonial />
       <Footer />
-
       <ChatWidget />
     </div>
   );

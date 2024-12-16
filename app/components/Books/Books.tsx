@@ -6,7 +6,9 @@ import { Button } from "@/components/ui/button";
 export const Books = () => {
   return (
     <>
-      <div className="mt-14 mb-12 ">
+      <div
+      data-aos="zoom-in"
+      className="mt-4 mb-12 ">
         <div className="container">
           <div className="text-center mb-10 max-w-[600px] mx-auto ">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary ">
@@ -39,11 +41,12 @@ export const Books = () => {
             ))}
           </div>
           <div className="flex justify-center ">
-            <Button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md" >See more</Button>
+            <Button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+              See more
+            </Button>
           </div>
         </div>
       </div>
-      ;
     </>
   );
 };
