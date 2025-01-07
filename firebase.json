@@ -1,0 +1,15 @@
+
+{
+  "functions": {
+    "source": "lib"
+  },
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nextjs"
+      }
+    ]
+  }
+}
